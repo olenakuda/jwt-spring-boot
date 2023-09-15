@@ -1,6 +1,6 @@
 ### project folders
-buildTemp/
-build
+/buildTemp
+/build
 components/buildSrc/build
 /components/*.iml
 /components/*.ipr
