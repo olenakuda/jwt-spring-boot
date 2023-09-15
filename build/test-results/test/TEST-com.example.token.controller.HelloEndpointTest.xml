@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.token.controller.HelloEndpointTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-09-15T09:06:16" hostname="Olenas-MacBook-Pro.local" time="0.419">
+  <properties/>
+  <testcase name="rootWhenUnauthenticatedThen401()" classname="com.example.token.controller.HelloEndpointTest" time="0.155"/>
+  <testcase name="tokenWhenUnauthorized()" classname="com.example.token.controller.HelloEndpointTest" time="0.005"/>
+  <testcase name="rootWhenAuthenticated()" classname="com.example.token.controller.HelloEndpointTest" time="0.154"/>
+  <testcase name="tokenWhenBadCredentialsThen401()" classname="com.example.token.controller.HelloEndpointTest" time="0.003"/>
+  <testcase name="rootWhenAuthenticatedThenSaysHelloUser()" classname="com.example.token.controller.HelloEndpointTest" time="0.097"/>
+  <system-out><![CDATA[2023-09-15T11:06:16.212+02:00  INFO 5597 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.token.controller.HelloEndpointTest]: HelloEndpointTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-09-15T11:06:16.226+02:00  INFO 5597 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.token.TokenApplication for test class com.example.token.controller.HelloEndpointTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.1)
+
+2023-09-15T11:06:16.250+02:00  INFO 5597 --- [    Test worker] c.e.token.controller.HelloEndpointTest   : Starting HelloEndpointTest using Java 17.0.8.1 with PID 5597 (started by olenakuda in /Users/olenakuda/Programming/git/jwt-spring-boot)
+2023-09-15T11:06:16.251+02:00  INFO 5597 --- [    Test worker] c.e.token.controller.HelloEndpointTest   : No active profile set, falling back to 1 default profile: "default"
+2023-09-15T11:06:16.423+02:00  INFO 5597 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@73a49597, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5eb2972f, org.springframework.security.web.context.SecurityContextHolderFilter@1fb71788, org.springframework.security.web.header.HeaderWriterFilter@2a54c92e, org.springframework.security.web.csrf.CsrfFilter@e5c5e6, org.springframework.security.web.authentication.logout.LogoutFilter@b788dc2, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@4f676900, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3ee258, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8cb7185, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4dac40b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29699283, org.springframework.security.web.session.SessionManagementFilter@31533eb1, org.springframework.security.web.access.ExceptionTranslationFilter@76dc36e5, org.springframework.security.web.access.intercept.AuthorizationFilter@a44effb]
+2023-09-15T11:06:16.470+02:00  INFO 5597 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-09-15T11:06:16.470+02:00  INFO 5597 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-09-15T11:06:16.471+02:00  INFO 5597 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-09-15T11:06:16.476+02:00  INFO 5597 --- [    Test worker] c.e.token.controller.HelloEndpointTest   : Started HelloEndpointTest in 0.246 seconds (process running for 3.242)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
